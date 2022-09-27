@@ -27,3 +27,5 @@ def load_job_from_db(id):
       return None
     else:
       return dict(rows[0])
+
+#function to insert values in DB
